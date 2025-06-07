@@ -13,6 +13,7 @@ export default async function MeuPerfilPage() {
       <p>id: {session.user?.id}</p>
       <p>name: {session.user?.name}</p>
       <p>email: {session.user?.email}</p>
+      <p>role: {session.user?.role}</p>
       <p>image: {session.user?.image}</p>
       {session.user?.image && (
         <Image
